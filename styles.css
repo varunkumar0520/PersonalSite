@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Allerta Stencil';
+    text-shadow: 2px 2px 3px red;
+
+}
+
+p {
+    color: lightcoral;
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: turquoise
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Allerta Stencil';
+    text-shadow: 2px 2px 3px black;
+}
+
+a{
+    color: white;
+
+}
+.background {
+   
+    background-image: url('mountains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
