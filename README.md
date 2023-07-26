@@ -3,3 +3,5 @@ Personal Website
 
 languages: 
 HTML
+CSS
+
