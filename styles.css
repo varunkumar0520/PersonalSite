@@ -6,7 +6,7 @@
 h1{
     color: white;
     text-align: center;
-    font-size: 500%;
+    font-size: 730%;
     font-family: 'Allerta Stencil';
     text-shadow: 2px 2px 3px red;
 
@@ -15,6 +15,7 @@ h1{
 p {
     color: lightcoral;
     text-align: center;
+
 }
 
 .fa {
@@ -34,7 +35,7 @@ p {
 h2{
     color: white;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
     font-family: 'Allerta Stencil';
     text-shadow: 2px 2px 3px black;
 }
@@ -52,11 +53,19 @@ a{
     height: 100vh;
 
 }
+.background2 {
+   
+    background-image: url('grey.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
 
+}
 /* Centered text */
 .centered {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
