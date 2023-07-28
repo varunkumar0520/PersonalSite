@@ -3,20 +3,31 @@
     padding: 0;
 }
 
-h1{
+/* page1 */
+.pageOneBackground {
+    background-image: url('mountains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.pageOneh1{
     color: white;
     text-align: center;
     font-size: 730%;
     font-family: 'Allerta Stencil';
     text-shadow: 2px 2px 3px red;
-
 }
 
-p {
-    color: lightcoral;
+.pageOneh2{
+    color: white;
     text-align: center;
-
+    font-size: 250%;
+    font-family: 'Allerta Stencil';
+    text-shadow: 2px 2px 3px black;
 }
+
 
 .fa {
     padding: 5px;
@@ -30,30 +41,19 @@ p {
 .fa:hover {
     opacity: 0.7;
     color: turquoise
+    
 }
 
-h2{
-    color: white;
-    text-align: center;
-    font-size: 100%;
-    font-family: 'Allerta Stencil';
-    text-shadow: 2px 2px 3px black;
-}
+
 
 a{
     color: white;
+    text-decoration: none;
 
 }
-.background {
-   
-    background-image: url('mountains.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
 
-}
-.background2 {
+
+.PageTwoBackground {
    
     background-image: url('grey.png');
     background-size: cover;
@@ -62,6 +62,13 @@ a{
     height: 200vh;
 
 }
+
+p {
+    color: lightcoral;
+    text-align: center;
+
+}
+
 /* Centered text */
 .centered {
     position: absolute;
